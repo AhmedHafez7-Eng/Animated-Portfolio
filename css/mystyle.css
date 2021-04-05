@@ -328,7 +328,7 @@
     /* margin-bottom: 0.25em; */
 }
 .banner .textBx h3{
-    width: fit-content;
+/*     width: fit-content; */
     font-size: 2.7vw;
     font-weight: 500;
     overflow: hidden;
@@ -1825,9 +1825,9 @@ header.sticky .toggle.active{
 	}
 	.banner{
 		padding: 150px 50px 100px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
 	}
     /* .banner .textBx{
         width: 100%;
@@ -1919,10 +1919,10 @@ header.sticky .toggle.active{
     }
 }
 @media(max-width: 600px){
-    section{
+	section{
 		padding: 100px 20px;
 	}
-    .banner{
+	.banner{
 		padding: 150px 20px 100px;
 	}
 	.banner .textBx h2{
@@ -1933,15 +1933,15 @@ header.sticky .toggle.active{
 	.banner .textBx h3{
 		font-size: 20px;
 		line-height: 1.2;
-    }
-    .navbar,
-    .navbar.sticky{
+    	}
+	.navbar,
+	.navbar.sticky{
 		padding: 20px 30px;
 		z-index: 1000;
 	}
-    .toggle{
-        right: 40px;
-    }
+	.toggle{
+	right: 40px;
+	}
     .about .imgBx .overlay .myName{
         font-size: 22px;
         letter-spacing: 4px;
@@ -2007,13 +2007,13 @@ header.sticky .toggle.active{
     }
 }
 @media(max-width: 400px){
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    .btn{
-		margin-top: 15px;
-		padding: 10px 10px;
-		font-size: 13px;
+	::-webkit-scrollbar{
+		display: none;
+	}
+	.btn{
+	margin-top: 15px;
+	padding: 10px 10px;
+	font-size: 13px;
 	}
     .banner{
 		padding: 120px 10px 100px;
