@@ -40,7 +40,7 @@
 }
 #loading-image {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     z-index: 4001;
     transform: translate(-50%, -20%);
@@ -301,7 +301,7 @@
     color: var(--textColor);
     line-height: 1.5;
     position: relative;
-    width: fit-content;
+/*     width: fit-content; */
     margin-bottom: 18px;
 }
 .banner .textBx h2 span{
@@ -351,7 +351,6 @@
 }
 /* Start Navbar */
 .navbar{
-    /* color: #FFF; */
     position: fixed;
     top: 0;
     left: 0;
@@ -549,7 +548,6 @@ header.sticky .toggle.active{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    /* max-height: 100%; */
     width: 100%;
     opacity: 0.2;
     background-image: url(../img/shining.gif);
@@ -664,7 +662,6 @@ header.sticky .toggle.active{
     z-index: -2;
 }
 .educationTimeline{
-    /* border: 1px solid red; */
     max-width: 500px;
     margin: 0 auto;
     border-left: 3px solid var(--mainColor);
@@ -683,7 +680,6 @@ header.sticky .toggle.active{
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    /* visibility: hidden; */
 }
 .educationTimeline .event::before{
     content: "";
@@ -1829,9 +1825,6 @@ header.sticky .toggle.active{
 		text-align: center;
 		align-items: center;
 	}
-    /* .banner .textBx{
-        width: 100%;
-    } */
 	.banner .textBx h2{
 		font-size: 2.5em;
 		line-height: 1.5;
@@ -1854,6 +1847,9 @@ header.sticky .toggle.active{
     .about .imgBx{
         margin-top: 30px;
     }
+	.educationTimeline .event{
+	    cursor: none;
+	}
     .educationTimeline .event .eventDate{
         position: absolute;
         left: 0;
@@ -1867,6 +1863,10 @@ header.sticky .toggle.active{
         color: var(--mainColor);
         opacity: 0.7;
     }
+	.timeline-item:before{
+	    letter-spacing: 1px;
+	    font-size: 10px
+	}
     .skills{
         flex-direction: column;
         justify-content: space-evenly;
